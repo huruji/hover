@@ -7,6 +7,79 @@
 		<meta name="description" content="">
 		<meta name="keywords" content="">
 		<link href="main.css" rel="stylesheet">
+		<style>
+		.title-container7{
+			position:relative;
+			width:70px;
+			text-align:center;
+			height:38px;
+		}
+		.title-container7 a{
+			height:100%;
+			line-height:38px;
+			display:block;
+			color:#000;
+		}
+			.title-container7 a:after{		
+				content:"";
+				display:block;
+				height:100%;
+				width:0;
+				background:#c82800;
+				margin:0 auto;
+				-webkit-transition:0.5s;
+				position:absolute;
+				top:0;
+				left:0;
+				right:0;
+				z-index:-1;
+			}
+			.title-container7:hover a:after{
+				width:100%;
+			}
+			.title-container7:hover a{
+				color:#fff;
+			}
+
+
+
+.title-container8{
+			position:relative;
+			width:70px;
+			text-align:center;
+			height:38px;
+		}
+		.title-container8 a{
+			height:100%;
+			line-height:38px;
+			display:block;
+			color:#000;
+		}
+			.title-container8 a:after{		
+				content:"";
+				height:0%;
+				width:100%;
+				background:#c82800;
+				margin:0 auto;
+				-webkit-transition:0.5s;
+				position:absolute;
+				top:0;
+				left:0;
+				right:0;
+				bottom:0;
+				z-index:-1;
+				margin:auto;
+			}
+			.title-container8:hover a:after{
+				height:100%;
+			}
+			.title-container8:hover a{
+				color:#fff;
+			}
+
+
+
+		</style>
 	</head>
 	<body>
 		<div class="github"><a href="#">进入GitHub</a></div>
@@ -197,9 +270,14 @@
 					</div>
 					<div class="items items-titles">
 						<div class="title-container title-container7">
-						<a href="#">联系我们</a></div>
+						<a href="#">首页</a></div>
+					</div>
+					<div class="items items-titles">
+						<div class="title-container title-container8">
+						<a href="#">首页</a></div>
 					</div>
 				</div>
+				<h1 class="item-title">导航条</h1>
 			</div>
 		</div>
 		<script src="main.js"></script>
